@@ -8,9 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      boxShadow: {
+        myShadow1: "4px -4px 0 0 #ffffff",
+        myShadow2: "-4px -4px 0 0 #ffffff",
       },
     },
   },

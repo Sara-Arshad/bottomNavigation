@@ -2,20 +2,197 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  /* background-color: black; */
+}
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (min-width: 320px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(4rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(8rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(12rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(16rem);
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* 360px Breakpoint */
+@media (min-width: 360px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(4.2rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(8.5rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(12.7rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(17rem);
+  }
+}
+@media (min-width: 375px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(4.5rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(9rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(13.4rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(18rem);
+  }
+}
+
+/* 390px Breakpoint */
+@media (min-width: 390px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(4.8rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(9.4rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(14.1rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(18.9rem);
+  }
+}
+@media (min-width: 425px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(5.2rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(10.5rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(15.8rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(21rem);
+  }
+}
+/* 430px Breakpoint */
+@media (min-width: 430px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(5.4rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(10.6rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(16rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(21.3rem);
+  }
+}
+
+/* Tablet Screen Size (Small Tablets) */
+@media (min-width: 768px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(10rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(19.9rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(30rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(40rem);
+  }
+}
+
+/* Large Screens (Desktop and larger) */
+/* 1024px Breakpoint */
+@media (min-width: 1024px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(13.8rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(27.5rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(41.2rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(55rem);
+  }
+}
+
+/* 1280px Breakpoint */
+@media (min-width: 1280px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(17.8rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(35.7rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(53.5rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(71.5rem);
+  }
+}
+
+/* 1440px and above */
+@media (min-width: 1440px) {
+  .translate-x-custom-1 {
+    transform: translateX(0);
+  }
+  .translate-x-custom-2 {
+    transform: translateX(20.2rem);
+  }
+  .translate-x-custom-3 {
+    transform: translateX(40.5rem);
+  }
+  .translate-x-custom-4 {
+    transform: translateX(60.7rem);
+  }
+  .translate-x-custom-5 {
+    transform: translateX(81rem);
+  }
 }
